@@ -303,7 +303,7 @@ img {
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 100%;
 }
 
 .home__data {
@@ -380,7 +380,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  width: 100%;
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
