@@ -519,7 +519,7 @@ img {
 .contact__input {
   width: 100%;
   background-color: var(--input-color);
-  color: var(--input-color);
+  color: #000;
   font-family: var(--normal-font-size);
   border: none;
   outline: none;
