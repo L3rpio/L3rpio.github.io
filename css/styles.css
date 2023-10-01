@@ -189,8 +189,9 @@ img {
   align-items: center;
 }
 
-.nav__logo:link,
-.nav__log:visited .nav__toggle {
+.nav__logo,
+.nav__logo .nav__toggle {
+  color: #000;
   columns: var(--title-color);
   font-weight: var(--font-medium);
 }
