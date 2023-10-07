@@ -1,6 +1,7 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 /*==================== VARIABLES CSS ====================*/
 :root {
   --header-height: 3rem;
@@ -191,6 +192,8 @@ img {
 
 .nav__logo,
 .nav__logo .nav__toggle {
+  font-family: "Grand Hotel";
+  font-size: var(--h2-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -312,6 +315,11 @@ img {
 
 .home__title {
   font: var(--big-font-size);
+}
+
+.cursive-name {
+  font-family: "Grand Hotel", cursive;
+  font-size: 1.8rem;
 }
 
 .home__subtitle {
